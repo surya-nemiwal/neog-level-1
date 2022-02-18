@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doc | Input</title>
+    <link rel="stylesheet" href="input.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2 class="container-head">Input</h2>
+    <div class="input-container">
+      <div class="input input-chip">
+        <div class="chip-collection"></div>
+        <input
+          type="text"
+          id="input-box"
+          placeholder="Type here..."
+          onkeypress="search(event)"
+        />
+      </div>
+      <div class="input input-search">
+        <i><span class="material-icons-outlined"> search </span></i>
+        <input class="search-input" type="text" placeholder="Search"/>
+      </div>
+    </div>
+    <script src="input.js"></script>
+  </body>
+</html>
