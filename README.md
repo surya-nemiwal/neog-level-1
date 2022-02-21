@@ -16,11 +16,11 @@ Copy-paste the below code in the head section of your HTML files to load predefi
  
 ### Alerts
  ###### This component library offers five alert components.
- - ###### 1. Primary Alert
- ###### 2. Secondary Alert
- ###### 3. Success Alert
- ###### 4. Warning Alert
- ###### 5. Danger Alert
+ - ###### Primary Alert
+ - ###### Secondary Alert
+ - ###### Success Alert
+ - ###### Warning Alert
+ - ###### Danger Alert
  
 <br/>
  
@@ -30,17 +30,17 @@ Copy-paste the below code in the head section of your HTML files to load predefi
 <br/>
  
 ### Badge
- ###### This component library offers three badges.
- ###### 1. Avatar with badge
- ###### 2. Cart icon with badge
- ###### 3. Favourite icon with badge
+ - ###### This component library offers three badges.
+ - ###### Avatar with badge
+ - ###### Cart icon with badge
+ - ###### Favourite icon with badge
  
 <br/>
  
  ### Alerts
- ###### This component library offers six button components.
- ###### 1. Primary button
- ###### 2. Secondary button
- ###### 3. Link button
- ###### 4. Add to cart button
- ###### 5. Add to favourite button
+  ###### This component library offers six button components.
+ - ###### Primary button
+ - ###### Secondary button
+ - ###### Link button
+ - ###### Add to cart button
+ - ###### Add to favourite button
