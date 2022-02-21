@@ -6,8 +6,12 @@
 @import "../Image/image.css";
 @import "../Input/input.css";
 
+:root{
+    --font-common: 'Quicksand', sans-serif;
+}
+
 body{
-    font-family: 'Quicksand', sans-serif;
+    font-family: var(--font-common);
     font-size: 20px;
     margin: 0px;
     background-color:rgb(246, 247, 249);
