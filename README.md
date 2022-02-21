@@ -44,3 +44,14 @@ Copy-paste the below code in the head section of your HTML files to load predefi
  - ###### Link button
  - ###### Add to cart button
  - ###### Add to favourite button
+ <br/>
+ 
+ ### Alerts
+  ###### This component library offers six button components.
+ - ###### Primary button
+ - ###### Secondary button
+ - ###### Link button
+ - ###### Add to cart button
+ - ###### Add to favourite button
+ 
+ 
