@@ -15,9 +15,13 @@ Copy-paste the below code in the head section of your HTML files to load predefi
 <br/>
  
 ### Alerts
- ###### This component library offers five alert components
+ ###### This component library offers five alert components.
  ###### 1. Primary Alert
  ###### 2. Secondary Alert
  ###### 3. Success Alert
  ###### 4. Warning Alert
  ###### 5. Danger Alert
+ 
+<br/>
+### Avatar
+ ###### This component library offers avatar in four sizes.
