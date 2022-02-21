@@ -8,3 +8,7 @@ Copy-paste the below code in the head section of your HTML files to load predefi
 
 ### Import in the <head> of HTML file:
 ```HTML < link rel="stylesheet" href="https://dev-u-i.netlify.app/style.css" /> ```
+
+##Components
+<br/>
+  ###Alerts
