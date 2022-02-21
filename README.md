@@ -13,4 +13,4 @@ Copy-paste the below code in the head section of your HTML files to load predefi
   
 ## Components
 <br/>
- ### Alerts
+### Alerts
