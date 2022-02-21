@@ -11,6 +11,6 @@ Copy-paste the below code in the head section of your HTML files to load predefi
 
  <br/>
   
-##Components
+## Components
 <br/>
-###Alerts
+### Alerts
