@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev UI | Docs</title>
+    <link rel="stylesheet" href="docs.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./logo.png" >
+    <link rel="stylesheet" href="../../buttons/button.css" />
+    <link rel="stylesheet" href="../../avatar/avatar.css" />
+    <link rel="stylesheet" href="../../badge/badge.css" />
+    <link rel="stylesheet" href="../../Card-shop/card.css" />
+    <link rel="stylesheet" href="../../Image/image.css" />
+    <link rel="stylesheet" href="../../input/input.css" />
+    <link rel="stylesheet" href="../../alert/alert.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="ui-name">
+        <i><img src="../Image files/logo.png" alt=""></i>
+        <h1>DEV UI</h1>
+      </div>
+      <nav class="page-nav">
+        <a href="../index.html" style="border: none">HOME</a>
+        <a href="./docs.html">DOCS</a>
+      </nav>
+    </header>
+    <img class="hero" src="../Image files/hero.svg" alt="hero-image" />
+    <section class="content">
+      <section class="sidebar-nav">
+        <nav>
+          <h3>Components</h3>
+          <ul>
+            <li><a href="#alert">Alert</a></li>
+            <li><a href="#avatar">Avatar</a></li>
+            <li><a href="#badge">Badge</a></li>
+            <li><a href="#button">Button</a></li>
+            <li><a href="#card">Card</a></li>
+            <li><a href="#image">Image</a></li>
+            <li><a href="#input">Input</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="main">
+        <div class="inst">
+          <h3>Instructions</h3>
+          <p>To use these components in your project, copy the code snippets to the html of your page.</p>
+        </div>
+        <div>
+          <h2 id="alert">Alert</h2>
+          <div class="alert-container">
+            <div class="alert alert-primary">
+              A Primary alert.
+              <button class="close-btn-alert">
+                <span class="material-icons-outlined"> close </span>
+              </button>
+            </div>
+            <div class="alert alert-secondary">
+              A Secondary alert.
+              <button class="close-btn-alert">
+                <span class="material-icons-outlined"> close </span>
+              </button>
+            </div>
+            <div class="alert alert-success">
+              <span class="material-icons-outlined"> check </span>
+              A Success alert.
+              <button class="close-btn-alert">
+                <i><span class="material-icons-outlined">close</span></i>
+              </button>
+            </div>
+            <div class="alert alert-warning">
+              <span class="material-icons-outlined"> error_outline </span>
+              A Warning alert !
+              <button class="close-btn-alert">
+                <i><span class="material-icons-outlined">close</span></i>
+              </button>
+            </div>
+            <div class="alert alert-danger">
+              <span class="material-icons-outlined"> warning </span>
+              A Danger alert !!
+              <button class="close-btn-alert">
+                <i><span class="material-icons-outlined">close</span></i>
+              </button>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=774&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520A%2520Primary%2520alert.%250A%2520%2520%253Cbutton%2520class%253D%2522close-btn-alert%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520A%2520Secondary%2520alert.%250A%2520%2520%253Cbutton%2520class%253D%2522close-btn-alert%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%2520check%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520A%2520Success%2520alert.%250A%2520%2520%253Cbutton%2520class%253D%2522close-btn-alert%2522%253E%250A%2520%2520%2520%2520%253Ci%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eclose%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%2520error_outline%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520A%2520Warning%2520alert%2520%21%250A%2520%2520%253Cbutton%2520class%253D%2522close-btn-alert%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eclose%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%2520warning%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520A%2520Danger%2520alert%2520%21%21%250A%2520%2520%253Cbutton%2520class%253D%2522close-btn-alert%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eclose%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A"
+              style="
+                width: 613px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div>
+          <h2 id="avatar">Avatar</h2>
+          <div class="avatar-container">
+            <ul>
+              <li>
+                <img class="avatar-biggest" src="https://picsum.photos/100" />
+              </li>
+              <li>
+                <img class="avatar-big" src="https://picsum.photos/100" />
+              </li>
+              <li>
+                <img class="avatar-small" src="https://picsum.photos/100" />
+              </li>
+              <li>
+                <img class="avatar-smallest" src="https://picsum.photos/100" />
+              </li>
+            </ul>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=774&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-biggest%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F100%2522%2520%252F%253E%250A%2520%2520%250A%253Cimg%2520class%253D%2522avatar-big%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F100%2522%2520%252F%253E%250A%2520%2520%250A%253Cimg%2520class%253D%2522avatar-small%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F100%2522%2520%252F%253E%250A%2520%2520%250A%253Cimg%2520class%253D%2522avatar-smallest%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F100%2522%2520%252F%253E"
+              style="
+                width: 622px;
+                height: 162px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div>
+          <h2 id="badge" class="container-head">Badge</h2>
+          <div class="badge-container">
+            <div class="avatar-with-badge">
+              <img src="https://picsum.photos/50" />
+              <div class="badge badge-avatar"></div>
+            </div>
+            <div class="icon-with-badge">
+              <i><span class="material-icons-outlined">shopping_cart</span></i>
+              <div class="badge badge-icon">3</div>
+            </div>
+            <div class="icon-with-badge">
+              <i
+                ><span
+                  class="material-icons-outlined"
+                  style="color: rgb(226, 17, 17)"
+                  >favorite</span
+                ></i
+              >
+              <div class="badge badge-icon">3</div>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-with-badge%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F50%2522%2520%252F%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-avatar%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522icon-with-badge%2522%253E%250A%2520%2520%2520%253Ci%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eshopping_cart%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-icon%2522%253E3%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522icon-with-badge%2522%253E%250A%2520%2520%2520%253Ci%250A%2520%2520%2520%2520%2520%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520class%253D%2522material-icons-outlined%2522%250A%2520%2520%2520%2520%2520%2520%2520style%253D%2522color%253A%2520rgb%28226%252C%252017%252C%252017%29%2522%250A%2520%2520%2520%2520%2520%2520%2520%253Efavorite%253C%252Fspan%250A%2520%2520%2520%2520%2520%253E%253C%252Fi%250A%2520%2520%2520%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-icon%2522%253E3%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 667px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <h2 id="button" class="container-head">Button</h2>
+        <div class="btn-container">
+          <div>
+            <button class="btn-primary">Primary</button>
+          </div>
+          <div>
+            <button class="btn-secondary">Secondary</button>
+          </div>
+          <div>
+            <button class="btn-link">
+              <a href="">Link</a>
+            </button>
+          </div>
+          <div>
+            <button class="btn-icon">
+              <i
+                ><span class="material-icons-outlined">
+                  add_shopping_cart
+                </span></i
+              >
+            </button>
+          </div>
+          <div>
+            <button class="btn-float">+</button>
+          </div>
+          <button id="btn-fav" class="btn-fav">
+            <svg>
+              <use xlink:href="#Layer_1" />
+            </svg>
+          </button>
+          <svg display="none">
+            <symbol
+              xmlns="http://www.w3.org/2000/svg"
+              id="Layer_1"
+              data-name="Layer 1"
+              viewBox="0 0 24 26"
+              width="24"
+              height="24"
+            >
+              <path
+                d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z"
+              />
+            </symbol>
+          </svg>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-link%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253ELink%253C%252Fa%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%253Ci%250A%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520add_shopping_cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%253C%252Fi%250A%2520%2520%2520%2520%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-float%2522%253E%252B%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520id%253D%2522btn-fav%2522%2520class%253D%2522btn-fav%2522%253E%250A%2520%2520%253Csvg%253E%250A%2520%2520%2520%2520%253Cuse%2520xlink%253Ahref%253D%2522%2523Layer_1%2522%2520%252F%253E%250A%2520%2520%253C%252Fsvg%253E%250A%253C%252Fbutton%253E%250A%253Csvg%2520display%253D%2522none%2522%253E%250A%2520%2520%253Csymbol%250A%2520%2520%2520%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%250A%2520%2520%2520%2520id%253D%2522Layer_1%2522%250A%2520%2520%2520%2520data-name%253D%2522Layer%25201%2522%250A%2520%2520%2520%2520viewBox%253D%25220%25200%252024%252026%2522%250A%2520%2520%2520%2520width%253D%252224%2522%250A%2520%2520%2520%2520height%253D%252224%2522%250A%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520d%253D%2522M17.5.917a6.4%252C6.4%252C0%252C0%252C0-5.5%252C3.3A6.4%252C6.4%252C0%252C0%252C0%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%25206.5.917%252C6.8%252C6.8%252C0%252C0%252C0%252C0%252C7.967c0%252C6.775%252C10.956%252C14.6%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%252011.422%252C14.932l.578.409.578-.409C13.044%252C22.569%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%252024%252C14.742%252C24%252C7.967A6.8%252C6.8%252C0%252C0%252C0%252C17.5.917Z%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fsymbol%253E%250A%253C%252Fsvg%253E"
+            style="
+              width: 611px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div>
+          <h2 id="card" class="container-head">Card</h2>
+          <div class="card-container">
+            <div class="card">
+              <div class="img-div">
+                <img src="https://picsum.photos/230/300" />
+                <button id="info-icon" class="btn-icon btn-info">
+                  <i><span class="material-icons-outlined"> info </span></i>
+                </button>
+                <div id="overlay-info" class="overlay-info">
+                  <h3>Text Overlay</h3>
+                </div>
+                <div>
+                  <button id="btn-fav-card" class="btn-fav-card">
+                    <svg>
+                      <use xlink:href="#Layer_1" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="bottom-div">
+                <div class="pdt-name-price">
+                  <h3 class="pdt-name">Shoes</h3>
+                  <p class="price">$100</p>
+                </div>
+                <div class="add-to-cart">
+                  <button class="btn-icon btn-cart">
+                    <i
+                      ><span class="material-icons-outlined" id="cart-icon">
+                        add_shopping_cart
+                      </span></i
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-div%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F230%252F300%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522info-icon%2522%2520class%253D%2522btn-icon%2520btn-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%2520info%2520%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cdiv%2520id%253D%2522overlay-info%2522%2520class%253D%2522overlay-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EText%2520Overlay%253C%252Fh3%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522btn-fav-card%2522%2520class%253D%2522btn-fav-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520xlink%253Ahref%253D%2522%2523Layer_1%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522bottom-div%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pdt-name-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522pdt-name%2522%253EShoes%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253E%2524100%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522add-to-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%2520id%253D%2522cart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520add_shopping_cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 649px;
+                height: 350px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div>
+            <div>
+              <h2 class="container-head">Card with Badges</h2>
+              <div class="card-container">
+                <div class="card-with-badge">
+                  <div><img src="https://picsum.photos/250" /></div>
+                  <div>
+                    <h2>Title</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="btns">
+                    <div>
+                      <button class="btn-primary">
+                        <strong>Primary</strong>
+                      </button>
+                    </div>
+                    <div>
+                      <button class="btn-link">
+                        <a href="https://google.com"><strong>Link</strong></a>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-badge">New</div>
+                </div>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-with-badge%2522%253E%250A%2520%2520%253Cdiv%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%2522%2520%252F%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522btns%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fgoogle.com%2522%253E%253Cstrong%253ELink%253C%252Fstrong%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                  style="
+                    width: 640px;
+                    height: 400px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+            <div>
+              <h2 class="container-head">Card with Dismiss</h2>
+              <div class="card-container">
+                <div class="card-with-dismiss">
+                  <div><img src="https://picsum.photos/250" /></div>
+                  <div>
+                    <h2>Title</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="btns">
+                    <div>
+                      <button class="btn-primary">
+                        <strong>Primary</strong>
+                      </button>
+                    </div>
+                    <div>
+                      <button class="btn-link">
+                        <a href="https://google.com"><strong>Link</strong></a>
+                      </button>
+                    </div>
+                  </div>
+                  <button class="dismiss-btn"><strong>X</strong></button>
+                </div>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-with-dismiss%2522%253E%250A%2520%2520%253Cdiv%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%2522%2520%252F%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522btns%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fgoogle.com%2522%253E%253Cstrong%253ELink%253C%252Fstrong%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522dismiss-btn%2522%253E%253Cstrong%253EX%253C%252Fstrong%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                  style="
+                    width: 640px;
+                    height: 400px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+            <div>
+              <h2 class="container-head">Card with Text overlay</h2>
+              <div class="card-container">
+                <div class="card-with-overlay">
+                  <div><img src="https://picsum.photos/250" /></div>
+                  <div>
+                    <h2>Title</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="btns">
+                    <div>
+                      <button class="btn-primary">
+                        <strong>Primary</strong>
+                      </button>
+                    </div>
+                    <div>
+                      <button class="btn-link">
+                        <a href="https://google.com"><strong>Link</strong></a>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="overlay"><strong>Text Overlay</strong></div>
+                </div>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-with-overlay%2522%253E%250A%2520%2520%253Cdiv%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%2522%2520%252F%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522btns%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fgoogle.com%2522%253E%253Cstrong%253ELink%253C%252Fstrong%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522overlay%2522%253E%253Cstrong%253EText%2520Overlay%253C%252Fstrong%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                  style="
+                    width: 640px;
+                    height: 400px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+            <div>
+              <h2 class="container-head">Text only Cards</h2>
+              <div class="card-container">
+                <div class="card-with-textOnly">
+                  <div>
+                    <h2>Title</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="btns">
+                    <div>
+                      <button class="btn-primary">
+                        <strong>Primary</strong>
+                      </button>
+                    </div>
+                    <div>
+                      <button class="btn-link">
+                        <a href="https://google.com"><strong>Link</strong></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-with-textOnly%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fgoogle.com%2522%253E%253Cstrong%253ELink%253C%252Fstrong%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv"
+                  style="
+                    width: 658px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+            <div>
+              <h2 class="container-head">Horizontal Cards</h2>
+              <div class="card-container">
+                <div class="overflow-ctrl">
+                  <div class="card-horizontal">
+                    <div><img src="https://picsum.photos/250" /></div>
+                    <div>
+                      <div>
+                        <h2>Title</h2>
+                        <p>
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit.
+                        </p>
+                      </div>
+                      <div class="btns">
+                        <div>
+                          <button class="btn-primary">
+                            <strong>Primary</strong>
+                          </button>
+                        </div>
+                        <div>
+                          <button class="btn-link">
+                            <a href="https://google.com"
+                              ><strong>Link</strong></a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%253Cdiv%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%2522%2520%252F%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%250A%2520%2520%2520%2520%2520%2520%2520%2520elit.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fgoogle.com%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cstrong%253ELink%253C%252Fstrong%253E%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="
+                      width: 602px;
+                      border: 0;
+                      transform: scale(1);
+                      overflow: hidden;
+                    "
+                    sandbox="allow-scripts allow-same-origin"
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2 class="container-head">Cards with Shadow</h2>
+              <div class="card-container">
+                <div class="card-with-shadow">
+                  <div><img src="https://picsum.photos/250" /></div>
+                  <div>
+                    <h2>Title</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="btns">
+                    <div>
+                      <button class="btn-primary">
+                        <strong>Primary</strong>
+                      </button>
+                    </div>
+                    <div>
+                      <button class="btn-link">
+                        <a href="https://google.com"><strong>Link</strong></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-with-shadow%2522%253E%250A%2520%2520%253Cdiv%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%2522%2520%252F%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522btns%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fgoogle.com%2522%253E%253Cstrong%253ELink%253C%252Fstrong%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                  style="
+                    width: 640px;
+                    height: 384px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <svg display="none">
+            <symbol
+              xmlns="http://www.w3.org/2000/svg"
+              id="Layer_1"
+              data-name="Layer 1"
+              viewBox="0 0 24 26"
+              width="24"
+              height="24"
+            >
+              <path
+                d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z"
+              />
+            </symbol>
+          </svg>
+        </div>
+        <div>
+          <h2 id="image" class="container-head">Image</h2>
+          <div class="image-container">
+            <div
+              class="img-div img-rectangle"
+              style="height: auto; width: 100%"
+            >
+              <img src="https://picsum.photos/1080/540" />
+            </div>
+            <div class="img-div img-circle" style="height: auto; width: 50%">
+              <img src="https://picsum.photos/540/540" />
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-div%2520img-rectangle%2522%2520style%253D%2522height%253A%2520auto%253B%2520width%253A%2520100%2525%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F500%252F250%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%250A%253Cdiv%2520class%253D%2522img-div%2520img-circle%2522%2520style%253D%2522height%253A%2520auto%253B%2520width%253A%252050%2525%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 693px;
+                height: 180px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div>
+          <h2 id="input" class="container-head">Input</h2>
+          <div class="input-container">
+            <div class="input input-chip">
+              <div class="chip-collection"></div>
+              <input
+                type="text"
+                id="input-box"
+                placeholder="Type here..."
+                onkeypress="search(event)"
+              />
+            </div>
+            <div class="input input-search">
+              <i><span class="material-icons-outlined"> search </span></i>
+              <input class="search-input" type="text" placeholder="Search" />
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=613&ds=false&dsyoff=0px&dsblur=7px&wc=false&wa=true&pv=14px&ph=14px&ln=false&fl=1&fm=Hack&fs=15px&lh=98%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520input-chip%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522chip-collection%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520id%253D%2522input-box%2522%250A%2520%2520%2520%2520placeholder%253D%2522Type%2520here...%2522%250A%2520%2520%2520%2520onkeypress%253D%2522search%28event%29%2522%250A%2520%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input%2520input-search%2522%253E%250A%2520%2520%253Ci%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%2520search%2520%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%253Cinput%2520class%253D%2522search-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 658px;
+                height: 268px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer>
+      <p>
+        Reach me at
+      </p>
+      <ul>
+        <li>
+          <a href="" alt="github">
+            <i><img src="../Image files/github.svg"></i>
+          </a>
+        </li>
+        <li>
+          <a href="" alt="discord">
+            <i><i><img src="../Image files/discord.svg"></i></i>
+          </a>
+        </li>
+        <li>
+          <a href="" alt="gmail">
+            <i><i><img src="../Image files/gmail.svg"></i></i>
+          </a>
+        </li>
+        <li>
+          <a href="" alt="twitter">
+            <i><i><img src="../Image files/twitter.svg"></i></i>
+          </a>
+        </li>
+        <li>
+          <a href="" alt="linkedin">
+            <i><i><img src="../Image files/linkedin.svg"></i></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="../../Card-shop/card.js"></script>
+    <script src="../../input/input.js"></script>
+  </body>
+</html>
