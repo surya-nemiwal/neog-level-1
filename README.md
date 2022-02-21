@@ -37,7 +37,7 @@ Copy-paste the below code in the head section of your HTML files to load predefi
  
 <br/>
  
- ### Alerts
+ ### Button
   ###### This component library offers six button components.
  - ###### Primary button
  - ###### Secondary button
@@ -46,12 +46,27 @@ Copy-paste the below code in the head section of your HTML files to load predefi
  - ###### Add to favourite button
  <br/>
  
- ### Alerts
-  ###### This component library offers six button components.
- - ###### Primary button
- - ###### Secondary button
- - ###### Link button
- - ###### Add to cart button
- - ###### Add to favourite button
+ ### Card
+  ###### This component library offers various card components.
+ - ###### Card for products with fav button and add to card button
+ - ###### Card with badge
+ - ###### Card with dismiss
+ - ###### Card with overlay
+ - ###### Text only card
+ - ###### Horizontal card
+ - ###### Card with shadow
+ <br/>
+ 
+ ### Responsive Image
+  ###### This component library offerstwo types of responsive image.
+ - ###### Rectangle image with border
+ - ###### Circular image
+  <br/>
+ 
+ ### Responsive Image
+  ###### This component library offerstwo types of Input components.
+ - ###### Input chips
+ - ###### Search input text
+ 
  
  
