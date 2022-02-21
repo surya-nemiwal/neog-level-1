@@ -63,7 +63,7 @@ Copy-paste the below code in the head section of your HTML files to load predefi
  - ###### Circular image
   <br/>
  
- ### Responsive Image
+ ### Input Components
   ###### This component library offerstwo types of Input components.
  - ###### Input chips
  - ###### Search input text
