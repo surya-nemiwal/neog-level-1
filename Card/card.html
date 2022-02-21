@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doc | Card</title>
+    <link rel="stylesheet" href="card.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2 class="container-head">Card</h2>
+    <div class="card-container">
+      <div class="card">
+        <div class="img-div">
+          <img src="https://picsum.photos/230/300" />
+          <button id="info-icon" class="btn-icon btn-info">
+            <i><span class="material-icons-outlined"> info </span></i>
+          </button>
+          <div id="overlay-info" class="overlay-info">
+            <h3>Text Overlay</h3>
+          </div>
+          <div>
+            <button id="btn-fav-card" class="btn-fav-card">
+              <svg>
+                <use xlink:href="#Layer_1" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="bottom-div">
+          <div class="pdt-name-price">
+            <h3 class="pdt-name">Shoes</h3>
+            <p class="price">$100</p>
+          </div>
+          <div class="add-to-cart">
+            <button class="btn-icon btn-cart">
+              <i
+                ><span class="material-icons-outlined" id="cart-icon">
+                  add_shopping_cart
+                </span></i
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="card">
+      <div>
+        <h2 class="container-head">Card with Badges</h2>
+        <div class="card-container">
+          <div class="card-with-badge">
+            <div><img src="https://picsum.photos/250" /></div>
+            <div>
+              <h2>Title</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="btns">
+              <div>
+                <button class="btn-primary"><strong>Primary</strong></button>
+              </div>
+              <div>
+                <button class="btn-link">
+                  <a href="https://google.com"><strong>Link</strong></a>
+                </button>
+              </div>
+            </div>
+            <div class="card-badge">New</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="container-head">Card with Dismiss</h2>
+        <div class="card-container">
+          <div class="card-with-dismiss">
+            <div><img src="https://picsum.photos/250" /></div>
+            <div>
+              <h2>Title</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="btns">
+              <div>
+                <button class="btn-primary"><strong>Primary</strong></button>
+              </div>
+              <div>
+                <button class="btn-link">
+                  <a href="https://google.com"><strong>Link</strong></a>
+                </button>
+              </div>
+            </div>
+            <button class="dismiss-btn"><strong>X</strong></button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="container-head">Card with Text overlay</h2>
+        <div class="card-container">
+          <div class="card-with-overlay">
+            <div><img src="https://picsum.photos/250" /></div>
+            <div>
+              <h2>Title</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="btns">
+              <div>
+                <button class="btn-primary"><strong>Primary</strong></button>
+              </div>
+              <div>
+                <button class="btn-link">
+                  <a href="https://google.com"><strong>Link</strong></a>
+                </button>
+              </div>
+            </div>
+            <div class="overlay"><strong>Text Overlay</strong></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="container-head">Text only Cards</h2>
+        <div class="card-container">
+          <div class="card-with-textOnly">
+            <div>
+              <h2>Title</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="btns">
+              <div>
+                <button class="btn-primary"><strong>Primary</strong></button>
+              </div>
+              <div>
+                <button class="btn-link">
+                  <a href="https://google.com"><strong>Link</strong></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="container-head">Vertical/Horizontal Cards</h2>
+        <div class="card-container">
+          <div class="overflow-ctrl">
+            <div class="card-horizontal">
+              <div><img src="https://picsum.photos/250" /></div>
+              <div>
+                <div>
+                  <h2>Title</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div class="btns">
+                  <div>
+                    <button class="btn-primary">
+                      <strong>Primary</strong>
+                    </button>
+                  </div>
+                  <div>
+                    <button class="btn-link">
+                      <a href="https://google.com"><strong>Link</strong></a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="container-head">Cards with Shadow</h2>
+        <div class="card-container">
+          <div class="card-with-shadow">
+            <div><img src="https://picsum.photos/250" /></div>
+            <div>
+              <h2>Title</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="btns">
+              <div>
+                <button class="btn-primary"><strong>Primary</strong></button>
+              </div>
+              <div>
+                <button class="btn-link">
+                  <a href="https://google.com"><strong>Link</strong></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <svg display="none">
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="Layer_1"
+        data-name="Layer 1"
+        viewBox="0 0 24 26"
+        width="24"
+        height="24"
+      >
+        <path
+          d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z"
+        />
+      </symbol>
+    </svg>
+    <script src="card.js"></script>
+  </body>
+</html>

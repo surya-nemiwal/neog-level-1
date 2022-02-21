@@ -1,0 +1,306 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: inset 0rem 0rem 0.5rem rgba(0, 0, 0, 0.39);
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.container-head {
+  margin: 0rem 1rem;
+}
+
+.card {
+  width: 230px;
+  border-radius: 1rem;
+  box-shadow: 0;
+  transform: scale(0.97);
+  transition: box-shadow 0.5s, transform 0.5s;
+  box-shadow: 0px 10px 20px 5px rgb(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1);
+  box-shadow: 0px 20px 30px rgb(0, 0, 0, 0.2);
+}
+
+.img-div {
+  position: relative;
+  height: 300px;
+}
+
+.img-div img {
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.btn-icon {
+  background: transparent;
+  border: none;
+}
+
+.btn-info {
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 50%;
+  height: 24px;
+}
+
+.btn-info span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+}
+
+.overlay-info {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem 1rem 0rem 0rem;
+  display: none;
+}
+
+.btn-info:hover + .overlay-info {
+  display: revert;
+}
+
+.overlay-info:hover {
+  display: revert;
+}
+
+.btn-cart {
+  height: 3rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.btn-cart span {
+  font-size: 2rem;
+}
+.btn-fav-card:hover,
+.btn-icon:active {
+  background-color: rgb(0, 0, 0, 0.05);
+}
+
+.btn-fav-card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  fill: transparent;
+  stroke-width: 2px;
+  stroke: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  border: none;
+}
+
+.btn-fav-card svg {
+  width: 24px;
+  height: 24px;
+  margin-top: 6px;
+}
+
+.btn-fav-clicked {
+  fill: red;
+  stroke: red;
+}
+
+.bottom-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.name-price {
+  padding: 0;
+}
+
+.pdt-name,
+.price {
+  margin: 0px 0.5rem;
+}
+
+.price {
+  font-size: small;
+}
+
+.add-to-cart {
+  border-left: rgb(136, 199, 201) 1px solid;
+}
+
+.btn-icon {
+  margin-left: 0.5rem;
+}
+
+.btn-primary {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 900;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: rgb(60, 63, 231);
+  border: 3px rgb(60, 63, 231) solid;
+  background-color: rgb(134, 201, 255);
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+.btn-primary:hover {
+  background-color: rgb(60, 63, 231);
+  color: white;
+}
+
+.btn-link{
+  background: transparent;
+  border: none;
+}
+.btn-link a {
+  display: block;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 900;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: rgb(60, 63, 231);
+  border: 3px rgb(60, 63, 231) solid;
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+.btn-link a:hover {
+  background-color: rgb(60, 63, 231);
+  color: white;
+}
+
+.btn-primary:active,
+.btn-link:active {
+  transform: scale(1.05);
+}
+
+.card-with-badge,
+.card-with-dismiss,
+.card-with-overlay,
+.card-with-textOnly,
+.card-with-shadow {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 15.6rem;
+  border-radius: 1rem;
+  margin: auto;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.438);
+}
+.card-with-badge img,
+.card-with-dismiss img,
+.card-with-overlay img,
+.card-with-shadow img {
+  border-radius: 1rem 1rem 0px 0px;
+}
+.card-with-badge .btns,
+.card-with-dismiss .btns,
+.card-with-overlay .btns,
+.card-with-textOnly .btns,
+.card-horizontal .btns,
+.card-with-shadow .btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-with-badge h2,
+p,
+.btns,
+.card-with-dismiss h2,
+.card-with-dismiss p,
+.card-with-dismiss .btns,
+.card-with-overlay h2,
+.card-with-overlay p,
+.card-with-overlay .btns,
+.card-with-textOnly h2,
+.card-with-textOnly p,
+.card-with-textOnly .btns,
+.card-with-shadow h2,
+.card-with-shadow p,
+.card-with-shadow .btns,
+.card-horizontal h2,
+.card-horizontal p,
+.card-horizontal .btns {
+  margin: .5rem;
+}
+.card-badge {
+  position: absolute;
+  text-align: center;
+  background-color: red;
+  width: 3rem;
+  right: 0rem;
+  top: 1rem;
+  border-radius: .5rem 0rem 0rem .5rem;
+}
+
+.dismiss-btn {
+  position: absolute;
+  top: .3rem;
+  right: .3rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: .7rem;
+  border: 0px;
+  background-color: rgba(235, 59, 59, 0.473);
+}
+.dismiss-btn:hover {
+  background-color: rgb(235, 59, 59);
+}
+
+.overlay {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30rem;
+  position: absolute;
+  background-color: rgba(31, 103, 105, 0.479);
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.overlay strong {
+  background-color: rgba(134, 200, 255, 0.527);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card-horizontal {
+  display: flex;
+  position: relative;
+  width: 30rem;
+  height: 15.6rem;
+  border-radius: 1rem;
+  margin: .5rem;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.438);
+}
+
+.overflow-ctrl {
+  overflow: scroll;
+  max-width: 90vw;
+}
+.overflow-ctrl::-webkit-scrollbar {
+  display: none;
+}
+
+.card-horizontal img {
+  border-radius: 1rem 0px 0px 1rem;
+}
+.card-horizontal .btns {
+  margin-top: 4.4rem;
+}
+
+.card-with-shadow {
+  box-shadow: 0px .5rem 2rem .5rem rgb(173, 221, 223);
+}

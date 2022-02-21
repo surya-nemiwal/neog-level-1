@@ -1,0 +1,82 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: inset 0rem 0rem 0.5rem gray;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.container-head {
+  margin: 0rem 1rem;
+}
+
+.input,.input-search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: none;
+  border-radius: 1.3rem;
+  background-color: white;
+  box-shadow: inset 0px 0px 5px rgb(0, 0, 0, 0.2);
+  max-width: 30rem;
+  margin: .5rem 0rem;
+  padding: .2rem;
+}
+
+.chip-collection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chip{
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1px 4px;
+  margin: 3px 4px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.2);
+}
+
+.chip-txt {
+  font-size: 1rem;
+  margin: 0px 5px 3px;
+}
+
+#input-box ,.search-input{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  padding: .4rem ;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: .5rem;
+}
+.close-btn {
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  border: 0px;
+  border-radius: 50%;
+  background-color: rgb(190, 228, 233);
+  height: 20px;
+  width: 20px;
+}
+.close-btn span{
+  font-size: 18px;
+  position: absolute;
+  top: -3.5px;
+  right: 6px;
+}
+
+.input-search i{
+  margin: 6px 0px 0px 7px;
+}
