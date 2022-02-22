@@ -12,6 +12,11 @@ Copy-paste the below code in the head section of your HTML files to load predefi
 ```
 <br/>
   
+  - Home Page
+ ![Home page Screenshot](https://user-images.githubusercontent.com/48398959/155181555-6e28fee6-da29-45da-9099-18e114522bab.png)
+  - Documentation Page
+ ![Docs page screenshot](https://user-images.githubusercontent.com/48398959/155181605-31349b20-9dad-468b-94f9-4bc5f4026faa.png)
+
 ## Components
 <br/>
   
