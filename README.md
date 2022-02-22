@@ -40,7 +40,7 @@ Copy-paste the below code in the head section of your HTML files to load predefi
 <br/>
  
  ### Button
-  ###### This component library offers six button components.
+  #### This component library offers six button components.
  - Primary button
  - Secondary button
  - Link button
