@@ -7,7 +7,12 @@ Visit [DEV UI](https://dev-u-i.netlify.app/) and check out the documentation for
 Copy-paste the below code in the head section of your HTML files to load predefined styles. 
 
 ### Import in the <head> of HTML file:
-```HTML < link rel="stylesheet" href="https://dev-u-i.netlify.app/style.css" /> ```
+```HTML 
+ 
+ < link rel="stylesheet" href="https://dev-u-i.netlify.app/style.css" /> 
+ 
+ 
+ ```
 
  <br/>
   
