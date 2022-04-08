@@ -1,0 +1,22 @@
+.rating input{
+    display: none;
+}
+.rating-container{
+    border-radius: 1rem;
+  box-shadow: inset 0rem 0rem 0.5rem gray;
+  padding: 1rem;
+  margin: 0.5rem;
+ text-align: center;
+}
+
+
+.rating svg{
+    stroke-width: 10px;
+    stroke: black;
+    opacity: 1;
+    fill: yellow;
+}
+
+#star5{
+    fill: white;
+}
