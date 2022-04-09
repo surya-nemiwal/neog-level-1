@@ -70,26 +70,33 @@ Copy-paste the below code in the head section of your HTML files to load predefi
   #### This component library offers two types of Input components.
  - Input chips
  - Search input text
+  <br/>
   
  ### Typography
   #### This component library offers text in 5 Heading text, Paragraph text, Coloured text and center text 
+  <br/>
   
  ### Lists
   #### This component library offers lists of two type.
   - Normal list ( With bullets )
   - Stacked list
+  <br/>
   
  ### Navigation
   #### Function navigation component for e-commerce website with Search, Cart and Wishlist options.
+  <br/>
   
  ### Modal
   ##### Modal to show Message 
+  <br/>
   
  ### Rating
   #### Rating component to take 5 star ratings.
+  <br/>
   
  ### Toast
-  #### Toast component to show ramaing time status for any task
+  #### Toast component to show ramaing time status for any task.
+  <br/>
   
  ### Grid
   #### Grid is offered in two type.
