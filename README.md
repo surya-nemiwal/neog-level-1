@@ -61,15 +61,40 @@ Copy-paste the below code in the head section of your HTML files to load predefi
  <br/>
  
  ### Responsive Image
-  #### This component library offerstwo types of responsive image.
+  #### This component library offers two types of responsive image.
  - Rectangle image with border
  - Circular image
   <br/>
  
  ### Input Components
-  #### This component library offerstwo types of Input components.
+  #### This component library offers two types of Input components.
  - Input chips
  - Search input text
+  
+ ### Typography
+  #### This component library offers text in 5 Heading text, Paragraph text, Coloured text and center text 
+  
+ ### Lists
+  #### This component library offers lists of two type.
+  - Normal list ( With bullets )
+  - Stacked list
+  
+ ### Navigation
+  #### Function navigation component for e-commerce website with Search, Cart and Wishlist options.
+  
+ ### Modal
+  ##### Modal to show Message 
+  
+ ### Rating
+  #### Rating component to take 5 star ratings.
+  
+ ### Toast
+  #### Toast component to show ramaing time status for any task
+  
+ ### Grid
+  #### Grid is offered in two type.
+  - Two items in a grid
+  - Three items in a grid
  
  
  
