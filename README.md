@@ -91,7 +91,7 @@ Copy-paste the below code in the head section of your HTML files to load predefi
   <br/>
   
  ### Rating
-  #### Rating component to take 5 star ratings.
+  #### Rating component to take 1-5 star ratings.
   <br/>
   
  ### Toast
