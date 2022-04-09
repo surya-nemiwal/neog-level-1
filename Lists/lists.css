@@ -1,0 +1,39 @@
+body{
+    font-family: "Quicksand", sans-serif;
+}
+
+.lists-container{
+    border-radius: 1rem;
+  box-shadow: inset 0rem 0rem 0.5rem gray;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.list-normal h2{
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.list-normal li{
+    font-size: 1.3rem;  
+}
+
+.list-stacked{
+    list-style: none;
+    width: 10rem;
+    text-align: center;
+}
+
+.list-stacked h2{
+    font-size: 1.5rem;
+    background-color: rgb(41, 153, 228);
+    border-radius: .3rem;
+    margin-bottom: .7rem;
+}
+
+.list-stacked li{
+    font-size: 1.3rem;
+    background-color: rgb(116, 192, 255);
+    margin: .5rem;
+    border-radius: .3rem;
+}

@@ -1,0 +1,11 @@
+.toast-container{
+    border-radius: 1rem;
+  box-shadow: inset 0rem 0rem 0.5rem gray;
+  padding: 1rem;
+  margin: 0.5rem;
+} 
+.toast-container .alert-primary{
+    box-shadow: 0rem 0rem 1rem .1rem rgba(0, 0, 0, 0.253);
+    background-color: rgb(139, 52, 139);
+    font-weight: bolder;
+}

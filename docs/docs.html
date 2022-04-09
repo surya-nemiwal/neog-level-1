@@ -6,7 +6,7 @@
     <title>Dev UI | Docs</title>
     <link rel="stylesheet" href="docs.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./logo.png" >
+    <link rel="shortcut icon" href="./logo.png" />
     <link rel="stylesheet" href="../../buttons/button.css" />
     <link rel="stylesheet" href="../../avatar/avatar.css" />
     <link rel="stylesheet" href="../../badge/badge.css" />
@@ -14,6 +14,13 @@
     <link rel="stylesheet" href="../../Image/image.css" />
     <link rel="stylesheet" href="../../input/input.css" />
     <link rel="stylesheet" href="../../alert/alert.css" />
+    <link rel="stylesheet" href="../../Typography/typography.css" />
+    <link rel="stylesheet" href="../Lists/lists.css" />
+    <link rel="stylesheet" href="../Navigation/navigation.css" />
+    <link rel="stylesheet" href="../Modal/modal.css" />
+    <link rel="stylesheet" href="../Rating/rating.css" />
+    <link rel="stylesheet" href="../Grid/grid.css" />
+    <link rel="stylesheet" href="../Toast/toast.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
@@ -26,7 +33,7 @@
   <body>
     <header>
       <div class="ui-name">
-        <i><img src="../Image files/logo.png" alt=""></i>
+        <i><img src="../Image files/logo.png" alt="" /></i>
         <h1>DEV UI</h1>
       </div>
       <nav class="page-nav">
@@ -47,13 +54,23 @@
             <li><a href="#card">Card</a></li>
             <li><a href="#image">Image</a></li>
             <li><a href="#input">Input</a></li>
+            <li><a href="#typography">Typography</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#navigation">Navigation</a></li>
+            <li><a href="#modal">Modal</a></li>
+            <li><a href="#rating">Rating</a></li>
+            <li><a href="#toast">Toast</a></li>
+            <li><a href="#grid">Grid</a></li>
           </ul>
         </nav>
       </section>
       <section class="main">
         <div class="inst">
           <h3>Instructions</h3>
-          <p>To use these components in your project, copy the code snippets to the html of your page.</p>
+          <p>
+            To use these components in your project, copy the code snippets to
+            the html of your page.
+          </p>
         </div>
         <div>
           <h2 id="alert">Alert</h2>
@@ -584,36 +601,308 @@
             </iframe>
           </div>
         </div>
+        <div>
+          <h2 id="typography" class="container-head">Typography</h2>
+          <div class="typography-container">
+            <h1>H1-Heading</h1>
+            <h2>H2-Heading</h2>
+            <h3>H3-Heading</h3>
+            <h4>H4-Heading</h4>
+            <h5>H5-Heading</h5>
+            <p>Paragraph-Size</p>
+            <h3 class="clr-gray">Gray-Text</h3>
+            <h3 class="position-center">Center-Text</h3>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=680&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=12px&ph=11px&ln=false&fl=1&fm=Hack&fs=15px&lh=119%25&si=false&es=2x&wm=false&code=%253Ch1%253EH1-Heading%253C%252Fh1%253E%250A%253Ch2%253EH2-Heading%253C%252Fh2%253E%250A%253Ch3%253EH3-Heading%253C%252Fh3%253E%250A%253Ch4%253EH4-Heading%253C%252Fh4%253E%250A%253Ch5%253EH5-Heading%253C%252Fh5%253E%250A%253Cp%253EParagraph-Size%253C%252Fp%253E%250A%253Ch3%2520class%253D%2522clr-gray%2522%253EGray-Text%253C%252Fh3%253E%250A%253Ch3%2520class%253D%2522position-center%2522%253ECenter-Text%253C%252Fh3%253E%250A%250A"
+              style="
+                width: 442px;
+                height: 162px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div>
+          <h2 id="lists" class="container-head">Lists</h2>
+          <div class="lists-container">
+            <ul class="list-normal">
+              <h2>Normal List</h2>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+            <ul class="list-stacked">
+              <h2>Stacked List</h2>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=680&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=12px&ph=11px&ln=false&fl=1&fm=Hack&fs=15px&lh=119%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-normal%2522%253E%250A%2520%2520%253Ch2%253ENormal%2520List%253C%252Fh2%253E%250A%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-stacked%2522%253E%250A%2520%2520%253Ch2%253EStacked%2520List%253C%252Fh2%253E%250A%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+              style="
+                width: 271px;
+                height: 162px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div>
+          <h2 id="navigation" class="container-head">Navigation</h2>
+          <div class="navigation-container">
+            <header>
+              <div class="head">
+                <h1>X Mart</h1>
+              </div>
+              <div class="input input-search">
+                <i><span class="material-icons-outlined"> search </span></i>
+                <input class="search-input" type="text" placeholder="Search" />
+              </div>
+              <nav class="page-nav">
+                <ul>
+                  <div class="icon-with-badge">
+                    <a href="../cart/cart.html"
+                      ><i
+                        ><span class="material-icons-outlined"
+                          >shopping_cart</span
+                        ></i
+                      ></a
+                    >
+
+                    <div class="badge badge-icon">3</div>
+                  </div>
+                  <div class="icon-with-badge">
+                    <a href="../wishlist/wishlist.html"
+                      ><i
+                        ><span
+                          class="material-icons-outlined"
+                          style="color: rgb(226, 17, 17)"
+                          >favorite</span
+                        >
+                      </i></a
+                    >
+                    <div class="badge badge-icon">3</div>
+                  </div>
+                  <a href="../index.html"
+                    ><img
+                      class="avatar-smallest"
+                      src="https://picsum.photos/100"
+                  /></a>
+                </ul>
+              </nav>
+            </header>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=680&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=12px&ph=11px&ln=false&fl=1&fm=Hack&fs=15px&lh=119%25&si=false&es=2x&wm=false&code=%253Cheader%253E%250A%2520%2520%253Cdiv%2520class%253D%2522head%2522%253E%250A%2520%2520%2520%2520%253Ch1%253EX%2520Mart%253C%252Fh1%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input%2520input-search%2522%253E%250A%2520%2520%2520%2520%253Ci%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%2520search%2520%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522search-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cnav%2520class%253D%2522page-nav%2522%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-with-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522..%252Fcart%252Fcart.html%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Eshopping_cart%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-icon%2522%253E3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-with-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522..%252Fwishlist%252Fwishlist.html%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522material-icons-outlined%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520style%253D%2522color%253A%2520rgb%28226%252C%252017%252C%252017%29%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Efavorite%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-icon%2522%253E3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522..%252Findex.html%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-smallest%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F100%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
+              style="
+                width: 651px;
+                height: 162px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div>
+          <h2 id="modal" class="container-head">Modal</h2>
+          <div class="modal-container">
+            <div class="modal">
+              <h3>Would You like to add this item to your Cart?</h3>
+              <button class="btn-primary">Cancel</button>
+              <button class="btn-link">
+                <a href="">Add</a>
+              </button>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=680&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=12px&ph=11px&ln=false&fl=1&fm=Hack&fs=15px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%253Ch3%253EWould%2520You%2520like%2520to%2520add%2520this%2520item%2520to%2520your%2520Cart%253F%253C%252Fh3%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-link%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EAdd%253C%252Fa%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 551px;
+                height: 162px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div>
+          <h2 id="rating" class="container-head">Rating</h2>
+          <div class="rating-container">
+            <div class="rating">
+              <input class="stars" type="radio" name="star" /><label for="star1"
+                ><svg
+                  id="star1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30px"
+                  viewBox="0 -5 576 522"
+                >
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  /></svg
+              ></label>
+              <input class="stars" type="radio" name="star" /><label for="star2"
+                ><svg
+                  id="star2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30px"
+                  viewBox="0 -5 576 522"
+                >
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  /></svg
+              ></label>
+              <input class="stars" type="radio" name="star" /><label for="star3"
+                ><svg
+                  id="star3"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30px"
+                  viewBox="0 -5 576 522"
+                >
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  /></svg
+              ></label>
+              <input class="stars" type="radio" name="star" /><label for="star4"
+                ><svg
+                  id="star4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30px"
+                  viewBox="0 -5 576 522"
+                >
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  /></svg
+              ></label>
+              <input class="stars" type="radio" name="star" /><label for="star5"
+                ><svg
+                  id="star5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30px"
+                  viewBox="0 -5 576 522"
+                >
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  /></svg
+              ></label>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=680&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=12px&ph=11px&ln=false&fl=1&fm=Hack&fs=15px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%253Cinput%2520class%253D%2522stars%2522%2520type%253D%2522radio%2522%2520name%253D%2522star%2522%2520%252F%253E%253Clabel%2520for%253D%2522star1%2522%250A%2520%2520%2520%2520%253E%253Csvg%250A%2520%2520%2520%2520%2520%2520id%253D%2522star1%2522%250A%2520%2520%2520%2520%2520%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%250A%2520%2520%2520%2520%2520%2520width%253D%252230px%2522%250A%2520%2520%2520%2520%2520%2520viewBox%253D%25220%2520-5%2520576%2520522%2522%250A%2520%2520%2520%2520%253E%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M381.2%2520150.3L524.9%2520171.5C536.8%2520173.2%2520546.8%2520181.6%2520550.6%2520193.1C554.4%2520204.7%2520551.3%2520217.3%2520542.7%2520225.9L438.5%2520328.1L463.1%2520474.7C465.1%2520486.7%2520460.2%2520498.9%2520450.2%2520506C440.3%2520513.1%2520427.2%2520514%2520416.5%2520508.3L288.1%2520439.8L159.8%2520508.3C149%2520514%2520135.9%2520513.1%2520126%2520506C116.1%2520498.9%2520111.1%2520486.7%2520113.2%2520474.7L137.8%2520328.1L33.58%2520225.9C24.97%2520217.3%252021.91%2520204.7%252025.69%2520193.1C29.46%2520181.6%252039.43%2520173.2%252051.42%2520171.5L195%2520150.3L259.4%252017.97C264.7%25206.954%2520275.9-.0391%2520288.1-.0391C300.4-.0391%2520311.6%25206.954%2520316.9%252017.97L381.2%2520150.3z%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%253C%252Fsvg%250A%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522stars%2522%2520type%253D%2522radio%2522%2520name%253D%2522star%2522%2520%252F%253E%253Clabel%2520for%253D%2522star2%2522%250A%2520%2520%2520%2520%253E%253Csvg%250A%2520%2520%2520%2520%2520%2520id%253D%2522star2%2522%250A%2520%2520%2520%2520%2520%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%250A%2520%2520%2520%2520%2520%2520width%253D%252230px%2522%250A%2520%2520%2520%2520%2520%2520viewBox%253D%25220%2520-5%2520576%2520522%2522%250A%2520%2520%2520%2520%253E%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M381.2%2520150.3L524.9%2520171.5C536.8%2520173.2%2520546.8%2520181.6%2520550.6%2520193.1C554.4%2520204.7%2520551.3%2520217.3%2520542.7%2520225.9L438.5%2520328.1L463.1%2520474.7C465.1%2520486.7%2520460.2%2520498.9%2520450.2%2520506C440.3%2520513.1%2520427.2%2520514%2520416.5%2520508.3L288.1%2520439.8L159.8%2520508.3C149%2520514%2520135.9%2520513.1%2520126%2520506C116.1%2520498.9%2520111.1%2520486.7%2520113.2%2520474.7L137.8%2520328.1L33.58%2520225.9C24.97%2520217.3%252021.91%2520204.7%252025.69%2520193.1C29.46%2520181.6%252039.43%2520173.2%252051.42%2520171.5L195%2520150.3L259.4%252017.97C264.7%25206.954%2520275.9-.0391%2520288.1-.0391C300.4-.0391%2520311.6%25206.954%2520316.9%252017.97L381.2%2520150.3z%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%253C%252Fsvg%250A%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522stars%2522%2520type%253D%2522radio%2522%2520name%253D%2522star%2522%2520%252F%253E%253Clabel%2520for%253D%2522star3%2522%250A%2520%2520%2520%2520%253E%253Csvg%250A%2520%2520%2520%2520%2520%2520id%253D%2522star3%2522%250A%2520%2520%2520%2520%2520%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%250A%2520%2520%2520%2520%2520%2520width%253D%252230px%2522%250A%2520%2520%2520%2520%2520%2520viewBox%253D%25220%2520-5%2520576%2520522%2522%250A%2520%2520%2520%2520%253E%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M381.2%2520150.3L524.9%2520171.5C536.8%2520173.2%2520546.8%2520181.6%2520550.6%2520193.1C554.4%2520204.7%2520551.3%2520217.3%2520542.7%2520225.9L438.5%2520328.1L463.1%2520474.7C465.1%2520486.7%2520460.2%2520498.9%2520450.2%2520506C440.3%2520513.1%2520427.2%2520514%2520416.5%2520508.3L288.1%2520439.8L159.8%2520508.3C149%2520514%2520135.9%2520513.1%2520126%2520506C116.1%2520498.9%2520111.1%2520486.7%2520113.2%2520474.7L137.8%2520328.1L33.58%2520225.9C24.97%2520217.3%252021.91%2520204.7%252025.6"
+              style="
+                width: 1024px;
+                height: 250px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div>
+          <h2 id="toast" class="container-head">Toast</h2>
+          <div class="toast-container">
+            <div class="alert alert-primary">
+              Retry in 5 seconds
+              <button class="close-btn-alert">
+                <span class="material-icons-outlined"> close </span>
+              </button>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=680&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=12px&ph=11px&ln=false&fl=1&fm=Hack&fs=15px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520Retry%2520in%25205%2520seconds%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520close%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%253C%252Fdiv%253E"
+              style="
+                width: 480px;
+                height: 162px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div>
+          <h2 id="grid" class="container-head">Grid</h2>
+          <div class="grid-container">
+            <h2>Two items in a Grid</h2>
+            <div class="grid-2-items">
+              <div>Item 1</div>
+              <div>Item 2</div>
+            </div>
+            <h2>Three items in a Grid</h2>
+            <div class="grid-3-items">
+              <div>Item 1</div>
+              <div>Item 2</div>
+              <div>Item 3</div>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=bw&l=auto&width=680&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=12px&ph=11px&ln=false&fl=1&fm=Hack&fs=15px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-2-items%2522%253E%250A%2520%2520%253Cdiv%253EItem%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253EItem%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%250A%253Cdiv%2520class%253D%2522grid-3-items%2522%253E%250A%2520%2520%253Cdiv%253EItem%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253EItem%25202%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253EItem%25203%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 299px;
+                height: 162px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
       </section>
     </section>
     <footer>
-      <p>
-        Reach me at
-      </p>
+      <p>Reach me at</p>
       <ul>
         <li>
           <a href="" alt="github">
-            <i><img src="../Image files/github.svg"></i>
+            <i><img src="../Image files/github.svg" /></i>
           </a>
         </li>
         <li>
           <a href="" alt="discord">
-            <i><i><img src="../Image files/discord.svg"></i></i>
+            <i
+              ><i><img src="../Image files/discord.svg" /></i
+            ></i>
           </a>
         </li>
         <li>
           <a href="" alt="gmail">
-            <i><i><img src="../Image files/gmail.svg"></i></i>
+            <i
+              ><i><img src="../Image files/gmail.svg" /></i
+            ></i>
           </a>
         </li>
         <li>
           <a href="" alt="twitter">
-            <i><i><img src="../Image files/twitter.svg"></i></i>
+            <i
+              ><i><img src="../Image files/twitter.svg" /></i
+            ></i>
           </a>
         </li>
         <li>
           <a href="" alt="linkedin">
-            <i><i><img src="../Image files/linkedin.svg"></i></i>
+            <i
+              ><i><img src="../Image files/linkedin.svg" /></i
+            ></i>
           </a>
         </li>
       </ul>
