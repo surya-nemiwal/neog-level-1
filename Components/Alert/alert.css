@@ -1,0 +1,81 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.alert-container{
+    border-radius: 1rem;
+    box-shadow:inset 0rem 0rem 0.5rem gray;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+h2{
+    margin: 0rem 1rem;
+}
+
+.alert-primary{
+    background-color: rgb(222, 184, 135);
+    padding: 0.5rem 0.25rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+    width: 30rem;
+    max-width: 90%;
+}
+
+.alert-secondary{
+    background-color: rgb(238, 176, 95);
+    padding: 0.5rem 0.25rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+    width: 30rem;
+    max-width: 90%;
+}
+
+.alert-success{
+    background-color: rgb(85, 136, 230);
+    padding: 0.5rem 0.25rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+    width: 30rem;
+    max-width: 90%;
+}
+
+.alert-warning{
+    background-color: rgb(216, 79, 79);
+    padding: 0.5rem 0.25rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+    width: 30rem;
+    max-width: 90%;
+}
+
+.alert-danger{
+    display: block;
+    background-color: rgb(255, 0, 0);
+    padding: 0.5rem 0.25rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+    width: 30rem;
+    max-width: 90%;
+}
+
+.alert span{
+    vertical-align: -0.25rem;
+    padding-right: 0.25rem;
+}
+
+.close-btn{
+    position: relative;
+    float: right;
+    width: 1.5rem;
+    padding: 0rem;
+    margin-right: 0.25rem;
+    background: transparent;
+    border: none;
+    border-radius: 0.25rem;   
+}
+
+.close-btn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
